@@ -74,5 +74,4 @@ class $modify(FixFramePlayLayer, PlayLayer) {
         if (!PlayLayer::init(level, useReplay, dontCreateObjects)) return false;
         m_isTestMode = true;
         return true;
-    }
-};
+    };
